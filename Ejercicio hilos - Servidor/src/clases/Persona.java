@@ -1,10 +1,10 @@
 package clases;
 
 public class Persona extends Thread {
-	private String nombre;
+	private String nombreName;
 
-	public Persona(String nombre) {
-		this.nombre = nombre;
+	public Persona(String nombreName) {
+		this.nombreName = nombreName;
 	}
 
 	@Override
@@ -14,7 +14,7 @@ public class Persona extends Thread {
 
 	@Override
 	public String toString() {
-		return "Saludos para " + nombre;
+		return "Saludos para " + nombreName;
 	}
 
 }
