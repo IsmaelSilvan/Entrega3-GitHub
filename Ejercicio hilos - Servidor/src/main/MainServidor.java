@@ -7,7 +7,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 import clases.Persona;
-
+/*Parra mira esto */
 public class MainServidor {
 	static int nPuerto = 6660;
 
